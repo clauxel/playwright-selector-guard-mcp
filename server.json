@@ -1,0 +1,27 @@
+{
+  "name": "com.clauxel.playwrightselectorguard/playwrightselectorguard-mcp",
+  "title": "Playwright Selector Guard MCP",
+  "description": "Paid remote MCP for Playwright selector risk checks, healing suggestions, action receipts, human approvals, and failure exports.",
+  "version": "1.0.0",
+  "websiteUrl": "https://playwrightselectorguard.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/playwright-selector-guard-mcp",
+  "serverCardUrl": "https://playwrightselectorguard.clauxel.com/server-card.json",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://playwrightselectorguard.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "playwright",
+    "selector-healing",
+    "browser-automation",
+    "remote-mcp"
+  ]
+}
