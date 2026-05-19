@@ -1,0 +1,12 @@
+# Playwright Selector Guard MCP
+
+Paid remote MCP for Playwright selector risk checks, healing suggestions, action receipts, human approvals, and failure exports.
+
+Website: https://playwrightselectorguard.clauxel.com/
+MCP endpoint: https://playwrightselectorguard.clauxel.com/mcp
+Server card: https://playwrightselectorguard.clauxel.com/server-card.json
+Docs: https://github.com/clauxel/playwright-selector-guard-mcp
+
+Use case: Detect brittle Playwright selectors and route safe healing suggestions.
+Authentication: Bearer token required for production use.
+Tools: check_selector_risk, suggest_selector_healing, record_action_receipt, request_human_approval, export_selector_failure
